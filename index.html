@@ -4,9 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Project of HTML</title>
+    <style>
+      html {
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      button,
+      input,
+      select {
+        font-size: inherit;
+      }
+      fieldset {
+        border: 2px solid black;
+      }
+    </style>
   </head>
+
   <body>
-    <form action="">
+    <form>
       <fieldset>
         <legend>Name and Address</legend>
         <table>
@@ -113,8 +129,7 @@
               <td></td>
               <td>
                 Your state/province and country of residence will be shared with
-                others so folks can find <br />
-                others in their community.
+                others so folks can find others in their community.
               </td>
             </tr>
 
@@ -134,7 +149,7 @@
 
       <button type="submit">Save</button>
       &emsp;
-      <button type="submit">Cancel</button>
+      <button>Cancel</button>
     </form>
   </body>
 </html>
